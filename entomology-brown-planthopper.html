@@ -43,10 +43,19 @@
 </main>
 <footer>
   <div class="wrap">
+    <div class="foot-follow">
+      <span>New notes drop regularly — follow along:</span>
+      <a class="ig-btn" href="https://www.instagram.com/khetivigyanio/" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.2" fill="currentColor"/></svg> Follow @khetivigyanio</a>
+    </div>
     <div>KhetiVigyan · Agriculture notes &amp; research support · Learn, Analyze, Write, Present, Grow</div>
     <div class="foot-links"><a href="index.html">Home</a> · <a href="notes.html">Notes</a> · <a href="services.html">Services</a></div>
   </div>
 </footer>
 
+<script>
+document.addEventListener("contextmenu",e=>{ if(e.target.closest("main")) e.preventDefault(); });
+document.addEventListener("copy",e=>{ if(getSelection().anchorNode&&getSelection().anchorNode.parentElement&&getSelection().anchorNode.parentElement.closest("main")){e.preventDefault();} });
+document.addEventListener("dragstart",e=>{ if(e.target.closest("main")) e.preventDefault(); });
+</script>
 </body>
 </html>

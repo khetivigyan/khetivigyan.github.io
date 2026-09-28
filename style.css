@@ -189,3 +189,6 @@ footer a{color:var(--ink-soft)}
 a.note-card{display:block;text-decoration:none;color:var(--ink)}
 a.note-card:hover{border-color:var(--green)}
 .note-more{display:inline-block;margin-top:10px;font-size:.82rem;font-weight:600;color:var(--green)}
+main{-webkit-user-select:none;user-select:none}
+main input,main select,main textarea{-webkit-user-select:auto;user-select:auto}
+.foot-follow{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}
